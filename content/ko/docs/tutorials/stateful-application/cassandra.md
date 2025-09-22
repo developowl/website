@@ -105,7 +105,7 @@ cassandra   ClusterIP   None         <none>        9042/TCP   45s
 다음 스테이트풀셋을 작업하는 클라우드 환경에서 갱신한다.
 {{< /note >}}
 
-{{< codenew file="application/cassandra/cassandra-statefulset.yaml" >}}
+{{% code_sample file="application/guestbook/redis-follower-service.yaml" %}}
 
 `cassandra-statefulset.yaml` 파일로 카산드라 스테이트풀셋 생성.
 
