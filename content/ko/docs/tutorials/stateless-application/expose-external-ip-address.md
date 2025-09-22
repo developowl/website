@@ -154,8 +154,10 @@ weight: 10
     성공적인 요청에 대한 응답으로 hello 메세지가 나타난다.
 
     ```shell
-    Hello Kubernetes!
-    ```
+   Hello, world!
+   Version: 2.0.0
+   Hostname: 0bd46b45f32f
+   ```
 
 ## {{% heading "cleanup" %}}
 
